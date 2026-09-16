@@ -1,0 +1,205 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/*================
+   PROFILE CARD
+================*/
+
+.profile-card {
+    width: 50%;
+    margin: 50px auto;
+
+    border: 5px solid #800020;
+    border-radius: 20px;
+
+    background-color: blueviolet;
+
+    box-shadow: 5px 5px black;
+
+    overflow: hidden;
+}
+
+.profile-card h1 {
+    text-align: center;
+    color: white;
+}
+
+/*================
+      IMAGE
+================*/
+
+.image {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.student-image {
+    width: 200px;
+
+    border: 3px solid #800020;
+    border-radius: 50%;
+
+    background-color: wheat;
+
+    transition: 0.23s ease-in-out;
+}
+
+.student-image:hover {
+    transform: scale(1.03);
+}
+
+/*================
+   STUDENT INFO
+================*/
+
+.student-info {
+    background-color: rgb(103, 182, 238);
+
+    border-top: 6px solid #800020;
+    border-bottom: 6px solid #800020;
+
+    padding: 15px;
+}
+
+#name {
+    font-style: italic;
+}
+
+#major {
+    font-size: large;
+    font-style: italic;
+}
+
+/*================
+      LABELS
+================*/
+
+span {
+    background-color: black;
+    color: aliceblue;
+
+    padding: 3px;
+
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+}
+
+/*================
+      SKILLS
+================*/
+
+.student-skills {
+    background-color: rgb(103, 182, 238);
+
+    border-bottom: 6px solid #800020;
+
+    padding: 15px;
+}
+
+.student-skills h4 {
+    color: white;
+    background-color: black;
+
+    display: inline-block;
+
+    border: 3px solid #800020;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.student-skills ul {
+    padding: 0;
+}
+
+.student-skills li {
+    color: white;
+    background-color: black;
+
+    display: inline-block;
+
+    padding: 10px;
+
+    border: 3px solid #800020;
+    border-radius: 10px;
+
+    margin: 10px;
+
+    transition: 0.23s ease-in-out;
+}
+
+.student-skills li:hover {
+    background-color: white;
+    color: black;
+}
+
+/*================
+      LINKS
+================*/
+
+.link {
+    display: inline-block;
+
+    padding: 10px;
+
+    background-color: blueviolet;
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.23s ease-in-out;
+}
+
+.link:hover {
+    background-color: wheat;
+    color: rgb(65, 40, 3)
+}
+
+.link2 {
+    display: inline-block;
+
+    padding: 10px;
+
+    border: 4px double wheat;
+    border-radius: 10px;
+
+    background-color: #800020;
+
+    color: black;
+
+    text-decoration: none;
+
+    transition: 0.23s ease-in-out;
+}
+
+.link2:hover {
+    background-color: rgb(10, 1, 18);
+    color: wheat;
+    border: 4px double #800020;
+}
+
+/*================
+   CONTACT CARD
+================*/
+
+.contact-card {
+    width: 50%;
+
+    margin: 50px auto;
+
+    padding: 30px;
+
+    border: 5px solid #800020;
+    border-radius: 20px;
+
+    background-color: wheat;
+
+    box-shadow: 5px 5px black;
+
+    color: white;
+}

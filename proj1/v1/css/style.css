@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+}
+
+.profile-card {
+    width: 50%;
+    margin: 0 auto;
+    border: 5px solid #800020;
+    border-radius: 20px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px black;
+}
+
+.image {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.student-image {
+    width: 200px;
+    border: 3px solid #800020;
+}
+
+.student-info {
+    background-color: rgb(103, 182, 238);
+    border: 3px solid #800020;
+    display: block;
+    border-top: 6px solid #800020;
+    border-bottom: 6px solid #800020;
+
+}
+
+.student-skills {
+    background-color: rgb(103, 182, 238);
+    border: 3px solid #800020;
+    border-bottom: 6px solid #800020;
+    border-top: 6px solid #800020;
+
+    /* border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px; */
+}
+
+h4 {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border: 3px solid #800020;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h5 {
+    color: white;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 3px solid #800020;
+    border-radius: 10px;
+    transition: 0.23s ease-in-out;
+    margin: 10px;
+}
+
+h5:hover {
+    background-color: white;
+    color: black;
+}
+
+.link {
+    border: 3px solid #800020;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    padding: 10px;
+    display: inline-block;
+    border-bottom-left-radius: 14px;
+    color: inherit;
+    background-color: rgb(65, 40, 3);
+    color: #ffffff;
+    transition: 0.23s ease-in-out;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: wheat;
+    color: rgb(65, 40, 3); 
+}
+
+#name {
+    color: #800020;
+    font-style: italic;
+}
+
+#major {
+    color: #800020;
+    font-size: large;
+    font-style: italic;
+}
+
+span {
+    background-color: black;
+    color: aliceblue;
+    padding: 3px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+}
