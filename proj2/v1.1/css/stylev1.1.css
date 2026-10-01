@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Altieb";
+    src: url(/proj2/fonts/YR-Sponge-Arabic.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #8dc001;
+}
+
+header {
+    background-color: #4d4d4d;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    border: 1px solid inherit;
+    border-radius: 50%;
+}
+
+.logo-container h1{
+    color: #8dc001;
+    margin-left: 10px;
+    font-family: Altieb;
+
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.home,
+.main-menu,
+.who_we_are,
+.contacts {
+    border: 4px double #8dc001;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Altieb;
+    background-color: #4d4d4d;
+    transition: 0.23s ease-in-out;
+    cursor: pointer;
+}
+
+.home:hover,
+.main-menu:hover,
+.who_we_are:hover,
+.contacts:hover {
+    background-color: #8dc001;
+    color: #4d4d4d;
+    border: 4px double #4d4d4d;
+    scale: calc(0.95);
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #888888;
+    min-width: 200px;
+    box-shadow: 0px 32px 50px 0px
+    rgba(0, 0, 0, 1);
+    border: none;
+    border-radius: 10px;
+}
+
+.dropdown-content img {
+    width: 100px;
+}
+
+.dropdown-content a {
+  color: #1b1b1b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #8dc001;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.section:nth-child(2) {
+    margin-left: 200px;
+    flex-direction: row-reverse;
+}
+
+.section2 {
+    justify-content: space-between;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    width: 800px;
+    position: relative;
+
+}
+
+.img2 {
+    width: 800px;
+    position: relative;
+    /* left: 721px; */
+}
+
+.img3 {
+    width: 300px;
+    margin: 20px;
+    border: 3px solid #4d4d4d;
+    border-radius: 50%;
+}

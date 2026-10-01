@@ -1,0 +1,40 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #aeec04b1;
+    color: #ffffff;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-family: Altieb;
+    font-size: x-large;
+    padding: 10px;
+    gap: 30px;
+}
+
+.container img {
+    width: 300px;
+    border: none;
+    border-radius: 50%;
+}
+
+.container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    gap: 30px;
+}
+
+#shawerma,
+#zinger,
+#burger {
+    scroll-margin-top: 120px;
+}
