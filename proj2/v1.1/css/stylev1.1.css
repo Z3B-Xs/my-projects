@@ -158,3 +158,155 @@ nav ul li a {
     border: 3px solid #4d4d4d;
     border-radius: 50%;
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* =========================
+       HEADER
+    ========================= */
+
+    header {
+        flex-direction: column;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+    .logo-container {
+        width: 100%;
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    .logo-container h1 {
+        font-size: 25px;
+        margin-left: 8px;
+    }
+
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    nav {
+        width: 100%;
+    }
+
+    .options {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3px;
+        padding-bottom: 5px;
+    }
+
+    .home,
+    .main-menu,
+    .who_we_are,
+    .contacts {
+        padding: 7px 8px;
+        margin: 3px;
+        font-size: 14px;
+        border-width: 3px;
+    }
+
+
+    /* =========================
+       DROPDOWN
+    ========================= */
+
+    .dropdown-content {
+        min-width: 180px;
+        max-width: 90vw;
+        z-index: 200;
+    }
+
+    .dropdown-content a {
+        padding: 8px;
+    }
+
+    .dropdown-content img {
+        width: 65px;
+    }
+
+    .dropdown-content h2 {
+        font-size: 17px;
+    }
+
+
+    /* =========================
+       HOME PAGE
+    ========================= */
+
+    .hero {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 10px;
+        margin: 0 !important;
+    }
+
+    .section:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .img1,
+    .img2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text {
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 23px;
+    }
+
+    .text article {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* =========================
+       HOME PAGE - BOTTOM IMAGES
+    ========================= */
+
+    .section2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .img3 {
+        width: 120px;
+        max-width: 30%;
+        margin: 5px;
+    }
+}

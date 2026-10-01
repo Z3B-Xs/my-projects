@@ -104,3 +104,118 @@ span {
     border: 2px solid yellowgreen;
     border-radius: 10px;
 }
+
+/* =========================
+   📱 MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .profile-card {
+        width: 100%;
+        margin: 0 auto;
+        border-width: 4px;
+        border-radius: 15px;
+    }
+
+    .profile-card h1 {
+        padding-left: 0 !important;
+        text-align: center;
+        font-size: 28px;
+        margin: 15px 5px;
+    }
+
+    .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .student-image {
+        width: 160px;
+        max-width: 80%;
+    }
+
+    .student-info {
+        padding: 12px;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+
+    .student-info h3 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .student-info p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    #major {
+        font-size: 16px;
+    }
+
+    span {
+        padding: 2px 4px;
+        display: inline-block;
+    }
+
+    .student-skills {
+        padding: 10px;
+        text-align: center;
+    }
+
+    h4 {
+        display: block;
+        width: fit-content;
+        margin: 5px auto 15px;
+    }
+
+    h5 {
+        margin: 5px;
+        padding: 8px 12px;
+    }
+
+    .link {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        border-right: 3px solid #800020;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+    }
+}
+
+
+/* =========================
+   📱 VERY SMALL PHONES
+   ========================= */
+
+@media (max-width: 380px) {
+
+    .profile-card h1 {
+        font-size: 24px;
+    }
+
+    .student-image {
+        width: 140px;
+    }
+
+    .student-info h3 {
+        font-size: 16px;
+    }
+
+    .student-info p {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 13px;
+        padding: 7px 10px;
+    }
+}

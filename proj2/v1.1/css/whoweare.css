@@ -9,3 +9,25 @@
     /* background-color: #45521f; */
     color: #454f2a;
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    .about-us {
+        width: calc(100% - 20px);
+        margin: 20px auto;
+        padding: 15px;
+
+        font-size: 16px;
+        line-height: 1.7;
+
+        overflow-wrap: break-word;
+    }
+
+    .who-we-are {
+        width: 100%;
+    }
+}

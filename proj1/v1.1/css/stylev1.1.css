@@ -203,3 +203,176 @@ span {
 
     color: white;
 }
+
+/*================
+   MOBILE
+================*/
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    /*================
+      PROFILE CARD
+    ================*/
+
+    .profile-card {
+        width: 100%;
+        margin: 20px auto;
+        border-width: 4px;
+        border-radius: 15px;
+    }
+
+    .profile-card h1 {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+
+    /*================
+         IMAGE
+    ================*/
+
+    .image {
+        width: 100%;
+    }
+
+    .student-image {
+        width: 160px;
+        max-width: 80%;
+    }
+
+
+    /*================
+       STUDENT INFO
+    ================*/
+
+    .student-info {
+        padding: 15px 12px;
+        text-align: center;
+    }
+
+    .student-info h3 {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .student-info p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    #major {
+        font-size: 16px;
+    }
+
+    span {
+        padding: 2px 5px;
+    }
+
+
+    /*================
+         SKILLS
+    ================*/
+
+    .student-skills {
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .student-skills h4 {
+        margin: 5px 5px 10px;
+    }
+
+    .student-skills ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .student-skills li {
+        margin: 5px;
+        padding: 8px 12px;
+    }
+
+
+    /*================
+          LINK
+    ================*/
+
+    .link {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px 15px;
+    }
+
+
+    /*================
+       CONTACT CARD
+    ================*/
+
+    .contact-card {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px 15px;
+        border-width: 4px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .contact-card h1 {
+        font-size: 28px;
+    }
+
+    .contact-card p {
+        font-size: 16px;
+        line-height: 1.8;
+        overflow-wrap: anywhere;
+    }
+
+    .link2 {
+        margin-top: 10px;
+    }
+}
+
+
+/*================
+   VERY SMALL PHONES
+================*/
+
+@media (max-width: 380px) {
+
+    .profile-card h1 {
+        font-size: 24px;
+    }
+
+    .student-image {
+        width: 140px;
+    }
+
+    .student-info h3 {
+        font-size: 16px;
+    }
+
+    .student-info p {
+        font-size: 14px;
+    }
+
+    .student-skills li {
+        font-size: 13px;
+        padding: 7px 10px;
+    }
+
+    .contact-card h1 {
+        font-size: 24px;
+    }
+
+    .contact-card p {
+        font-size: 14px;
+    }
+}

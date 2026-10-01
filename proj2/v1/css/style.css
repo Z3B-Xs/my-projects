@@ -95,3 +95,192 @@ body {
     border-bottom: 0;
     background-color: #ff7922;
 }
+
+/* =========================
+   📱 MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* =========================
+       LOGO / HEADER
+    ========================= */
+
+    .logo-container {
+        width: 100%;
+        padding: 15px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .logo-container img {
+        width: 100px;
+        max-width: 35vw;
+        height: auto;
+    }
+
+    .logo-container h1 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .logo-container a {
+        padding: 7px 12px;
+        border: 2px solid #8dc001;
+        border-radius: 8px;
+        text-decoration: none;
+        background-color: #ff7922;
+        color: black;
+    }
+
+
+    /* =========================
+           MENU TITLES
+    ========================= */
+
+    .menu {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #english-menu,
+    #arabic-menu {
+        font-size: 24px;
+    }
+
+
+    /* =========================
+           MAIN MENU
+    ========================= */
+
+    .tmenu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 8px;
+    }
+
+
+    /* =========================
+           ENGLISH MENU
+    ========================= */
+
+    .e-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .e-menu h3 {
+        font-size: 22px;
+        margin: 0 auto 10px;
+    }
+
+    .e-menu ul {
+        width: 100%;
+    }
+
+    .e-menu ul li {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+        padding: 10px 8px;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+
+    /* =========================
+              IMAGES
+    ========================= */
+
+    .i-menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tmenu img {
+        width: 140px;
+        max-width: 40%;
+        height: auto;
+    }
+
+
+    /* =========================
+            ARABIC MENU
+    ========================= */
+
+    .a-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .a-menu h3 {
+        font-size: 22px;
+        margin: 0 auto 10px;
+    }
+
+    .a-menu ul {
+        width: 100%;
+    }
+
+    .a-menu ul li {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+        padding: 10px 8px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+
+/* =========================
+       📱 SMALL PHONES
+========================= */
+
+@media (max-width: 380px) {
+
+    .logo-container img {
+        width: 85px;
+    }
+
+    .logo-container h1 {
+        font-size: 21px;
+    }
+
+    .logo-container a {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    #english-menu,
+    #arabic-menu {
+        font-size: 21px;
+    }
+
+    .e-menu ul li,
+    .a-menu ul li {
+        font-size: 14px;
+        padding: 9px 6px;
+    }
+
+    .tmenu img {
+        width: 120px;
+    }
+}
