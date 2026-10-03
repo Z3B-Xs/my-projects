@@ -90,6 +90,11 @@ nav ul li a {
     flex-direction: column;
 }
 
+.dropdown:focus-within .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
