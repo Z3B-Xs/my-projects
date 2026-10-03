@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    font-size: 34px;
+    border: 3px solid #4d4d4d;
+    padding: 10px;
+}
